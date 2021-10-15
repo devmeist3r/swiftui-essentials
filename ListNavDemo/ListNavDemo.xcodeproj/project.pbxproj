@@ -15,6 +15,8 @@
 		E82B9C0F2717DBBC007AFB2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82B9C0E2717DBBC007AFB2D /* Preview Assets.xcassets */; };
 		E82B9C162717DF1B007AFB2D /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82B9C152717DF1A007AFB2D /* Car.swift */; };
 		E82B9C182717E1C9007AFB2D /* CarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82B9C172717E1C9007AFB2D /* CarData.swift */; };
+		E838CB7D271993D100B35DF0 /* CarDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E838CB7C271993D100B35DF0 /* CarDetails.swift */; };
+		E838CB7F271995EF00B35DF0 /* AddNewCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E838CB7E271995EF00B35DF0 /* AddNewCar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		E82B9C0E2717DBBC007AFB2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E82B9C152717DF1A007AFB2D /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		E82B9C172717E1C9007AFB2D /* CarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarData.swift; sourceTree = "<group>"; };
+		E838CB7C271993D100B35DF0 /* CarDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetails.swift; sourceTree = "<group>"; };
+		E838CB7E271995EF00B35DF0 /* AddNewCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				E82B9C172717E1C9007AFB2D /* CarData.swift */,
 				E81106A22718FAF700C6841D /* carData.json */,
 				E81106A42718FB6A00C6841D /* CarStore.swift */,
+				E838CB7C271993D100B35DF0 /* CarDetails.swift */,
+				E838CB7E271995EF00B35DF0 /* AddNewCar.swift */,
 			);
 			path = ListNavDemo;
 			sourceTree = "<group>";
@@ -152,7 +158,9 @@
 			files = (
 				E82B9C182717E1C9007AFB2D /* CarData.swift in Sources */,
 				E82B9C0A2717DBB6007AFB2D /* ContentView.swift in Sources */,
+				E838CB7F271995EF00B35DF0 /* AddNewCar.swift in Sources */,
 				E82B9C082717DBB6007AFB2D /* ListNavDemoApp.swift in Sources */,
+				E838CB7D271993D100B35DF0 /* CarDetails.swift in Sources */,
 				E82B9C162717DF1B007AFB2D /* Car.swift in Sources */,
 				E81106A52718FB6A00C6841D /* CarStore.swift in Sources */,
 			);
